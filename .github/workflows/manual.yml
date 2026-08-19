@@ -2,7 +2,7 @@ name: TheGreatDataDump
 
 on:
   schedule:
-    - cron: '45 4 * * *'
+    - cron: '0 7 * * *'
 
   workflow_dispatch:
 
