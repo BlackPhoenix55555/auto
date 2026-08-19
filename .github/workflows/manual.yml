@@ -28,8 +28,5 @@ jobs:
 
       - name: Run Python script
         shell: powershell
-        env:
-          DB_USER: ${{ secrets.DB_USER }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
         run: |
           python main.py
